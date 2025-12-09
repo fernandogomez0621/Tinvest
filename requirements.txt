@@ -1,0 +1,23 @@
+# Tinvest Analytics Dashboard - Requirements
+# Python 3.8+
+
+# Core
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualización
+plotly>=5.17.0
+seaborn>=0.12.0
+matplotlib>=3.7.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Forecasting (opcional pero recomendado)
+prophet>=1.1.4
+# Nota: Prophet puede requerir dependencias adicionales en Windows
+# pip install pystan==2.19.1.1 antes de instalar prophet
+
+# Utilidades
+python-dateutil>=2.8.0
